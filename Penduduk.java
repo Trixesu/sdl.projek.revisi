@@ -48,7 +48,7 @@ public class Penduduk implements Comparable<Penduduk> {
     }
 
     public void tampilkanData() {
-        System.out.printf("| %-16s | %-20s | %-20s | %-6s | %-10s |\n",
+        System.out.printf("| %-16s | %-20s | %-20s | %-6s | %-12s |\n",
                 noKK, nama, alamat, (sudahMenerimaBantuan ? "Sudah" : "Belum"), jenisBansos);
     }
 
